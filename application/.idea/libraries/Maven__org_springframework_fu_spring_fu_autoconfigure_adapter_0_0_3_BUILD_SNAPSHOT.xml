@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.fu:spring-fu-autoconfigure-adapter:0.0.3.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/fu/spring-fu-autoconfigure-adapter/0.0.3.BUILD-SNAPSHOT/spring-fu-autoconfigure-adapter-0.0.3.BUILD-20181220.093727-57.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/fu/spring-fu-autoconfigure-adapter/0.0.3.BUILD-SNAPSHOT/spring-fu-autoconfigure-adapter-0.0.3.BUILD-20181220.093727-57-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/fu/spring-fu-autoconfigure-adapter/0.0.3.BUILD-SNAPSHOT/spring-fu-autoconfigure-adapter-0.0.3.BUILD-20181220.093727-57-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

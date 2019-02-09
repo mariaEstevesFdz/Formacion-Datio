@@ -1,0 +1,63 @@
+w10@DESKTOP-VC0AO8L MINGW64 ~
+$ mkdir mariaesteves
+
+w10@DESKTOP-VC0AO8L MINGW64 ~
+$ mkdir mariaesteves
+mkdir: cannot create directory ‘mariaesteves’: File exists
+
+w10@DESKTOP-VC0AO8L MINGW64 ~
+$ wget http://samplecsvs.s3.amazonaws.com/Sacramentorealestatetransactions.csv
+bash: wget: command not found
+
+w10@DESKTOP-VC0AO8L MINGW64 ~
+$ cd mariaesteves
+
+w10@DESKTOP-VC0AO8L MINGW64 ~/mariaesteves
+$ nano ejemplo.csv
+
+w10@DESKTOP-VC0AO8L MINGW64 ~/mariaesteves
+$ wc -l ejemplo.csv
+wc: ejemplo.csv: No such file or directory
+
+w10@DESKTOP-VC0AO8L MINGW64 ~/mariaesteves
+$ nano archivo.txt
+
+w10@DESKTOP-VC0AO8L MINGW64 ~/mariaesteves
+$ wc -l archivo.txt
+1974 archivo.txt
+
+w10@DESKTOP-VC0AO8L MINGW64 ~/mariaesteves
+$ nano archivoejercicio.txt
+
+w10@DESKTOP-VC0AO8L MINGW64 ~/mariaesteves
+$ wc -l archivoejercicio.txt
+1974 archivoejercicio.txt
+
+w10@DESKTOP-VC0AO8L MINGW64 ~/mariaesteves
+$ head -10 archivoejercicio.txt
+street,city,zip,state,beds,baths,sq__ft,type,sale_date,price,latitude,longitude
+3526 HIGH ST,SACRAMENTO,95838,CA,2,1,836,Residential,Wed May 21 00:00:00
+EDT 2008,59222,38.631913,-121.434879
+51 OMAHA CT,SACRAMENTO,95823,CA,3,1,1167,Residential,Wed May 21 00:00:00
+EDT 2008,68212,38.478902,-121.431028
+2796 BRANCH ST,SACRAMENTO,95815,CA,2,1,796,Residential,Wed May 21
+00:00:00 EDT 2008,68880,38.618305,-121.443839
+2805 JANETTE WAY,SACRAMENTO,95815,CA,2,1,852,Residential,Wed May 21
+00:00:00 EDT 2008,69307,38.616835,-121.439146
+6001 MCMAHON DR,SACRAMENTO,95824,CA,2,1,797,Residential,Wed May 21
+
+w10@DESKTOP-VC0AO8L MINGW64 ~/mariaesteves
+$ grep -r "Multi-Family" archivoejercicio.txt
+4520 BOMARK WAY,SACRAMENTO,95842,CA,4,2,1943,Multi-Family,Wed May 21
+7624 BOGEY CT,SACRAMENTO,95828,CA,4,4,2162,Multi-Family,Wed May 21
+2912 NORCADE CIR,SACRAMENTO,95826,CA,8,4,3612,Multi-Family,Wed May 21
+10158 CRAWFORD WAY,SACRAMENTO,95827,CA,4,4,2213,Multi-Family,Wed May 21
+6344 BONHAM CIR,CITRUS HEIGHTS,95610,CA,5,4,2085,Multi-Family,Tue May 20
+2820 DEL PASO BLVD,SACRAMENTO,95815,CA,4,2,1404,Multi-Family,Mon May 19
+7342 GIGI PL,SACRAMENTO,95828,CA,4,4,1995,Multi-Family,Mon May 19
+10949 SCOTSMAN WAY,RANCHO CORDOVA,95670,CA,5,4,2382,Multi-Family,Mon May
+220 OLD AIRPORT RD,AUBURN,95603,CA,2,2,960,Multi-Family,Mon May 19
+398 LINDLEY DR,SACRAMENTO,95815,CA,4,2,1744,Multi-Family,Mon May 19
+8198 STEVENSON AVE,SACRAMENTO,95828,CA,6,4,2475,Multi-Family,Fri May 16
+1139 CLINTON RD,SACRAMENTO,95825,CA,4,2,1776,Multi-Family,Fri May 16
+7351 GIGI PL,SACRAMENTO,95828,CA,4,2,1859,Multi-Family,Thu May 15
